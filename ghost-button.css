@@ -1,0 +1,93 @@
+/**
+ * Ghost Buttons v0.1 (http://dotedlabs.com)
+ * Copyright 2015 DotedLabs
+ * MIT License
+ *
+ * Note: Use this with BootStrap to get full blown results
+ */
+
+
+/** Ghost Buttons - Start**/
+
+.ghost-btn, a.ghost-btn, .ghost-btn:visited {
+    color: #fff;
+    border: solid 2px #fff;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.ghost-btn:hover, .ghost-btn:active, a.ghost-btn:hover, a.ghost-btn:active {
+    background-color: #fff;
+    color: #444;
+}
+
+
+/* Primary Ghost Button */
+
+.ghost-btn-primary, a.ghost-btn-primary, .ghost-btn-primary:visited {
+    border: solid 2px #333;
+    color: #333;
+}
+
+.ghost-btn-primary:hover, .ghost-btn-primary:active, a.ghost-btn-primary:hover, a.ghost-btn-primary:active {
+    background-color: #333;
+    color: #fff;
+}
+
+
+/* Danger Ghost Button */
+
+.ghost-btn-danger, a.ghost-btn-danger, .ghost-btn-danger:visited {
+    border: solid 2px #d9534f;
+    color: #d9534f;
+}
+
+.ghost-btn-danger:hover, .ghost-btn-danger:active, a.ghost-btn-danger:hover, a.ghost-btn-danger:active {
+    background-color: #d9534f;
+    color: #fff;
+}
+
+
+/* Success Ghost Button */
+
+.ghost-btn-success, a.ghost-btn-success, .ghost-btn-success:visited {
+    border: solid 2px #5cb85c;
+    color: #5cb85c;
+}
+
+.ghost-btn-success:hover, .ghost-btn-success:active, a.ghost-btn-success:hover, a.ghost-btn-success:active {
+    background-color: #5cb85c;
+    color: #fff;
+}
+
+
+/* Information Ghost Button */
+
+.ghost-btn-info, a.ghost-btn-info, .ghost-btn-info:visited {
+    border: solid 2px #428bca;
+    color: #428bca;
+}
+
+.ghost-btn-info:hover, .ghost-btn-info:active, a.ghost-btn-info:hover, a.ghost-btn-info:active {
+    background-color: #428bca;
+    color: #fff;
+}
+
+
+/* Warning Ghost Button */
+
+.ghost-btn-warn, a.ghost-btn-warn, .ghost-btn-warn:visited {
+    border: solid 2px #f0ad4e;
+    color: #f0ad4e;
+}
+
+.ghost-btn-warn:hover, .ghost-btn-warn:active, a.ghost-btn-warn:hover, a.ghost-btn-warn:active {
+    background-color: #f0ad4e;
+    color: #fff;
+}
+
+
+/** Ghost Buttons - End**/
