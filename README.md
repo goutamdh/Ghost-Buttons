@@ -3,29 +3,31 @@ CSS3 Supported Ghost buttons for web pages
 Use this along with BootStrap
 
 -Example usage
-<a href="#" class="btn ghost-btn">Submit</a>
+<pre>
+class="btn ghost-btn"
+</pre>
 
 * Primary Ghost Button
 <pre>
-]]><a href="#" class="btn ghost-btn ghost-btn-primary">Submit</a>
+class="btn ghost-btn ghost-btn-primary"
 </pre>
 
 * Information Ghost Button
 <pre>
-<a href="#" class="btn ghost-btn ghost-btn-info">Submit</a>
+class="btn ghost-btn ghost-btn-info"
 </pre>
 
 * Danger Ghost Button
 <pre>
-<a href="#" class="btn ghost-btn ghost-btn-danger">Submit</a>
+class="btn ghost-btn ghost-btn-danger"
 </pre>
 
 * Success Ghost Button
 <pre>
-<a href="#" class="btn ghost-btn ghost-btn-success">Submit</a>
+class="btn ghost-btn ghost-btn-success"
 </pre>
 
 * Warning Ghost Button
 <pre>
-<a href="#" class="btn ghost-btn ghost-btn-warn">Submit</a>
+class="btn ghost-btn ghost-btn-warn"
 </pre>
