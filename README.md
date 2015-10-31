@@ -7,7 +7,7 @@ Use this along with BootStrap
 
 * Primary Ghost Button
 <pre>
-<a href="#" class="btn ghost-btn ghost-btn-primary">Submit</a>
+]]><a href="#" class="btn ghost-btn ghost-btn-primary">Submit</a>
 </pre>
 
 * Information Ghost Button
