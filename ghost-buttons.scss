@@ -1,0 +1,114 @@
+/** Ghost Buttons - Start**/
+
+// Colors
+$brand-primary: #ef3777;
+$grapefruit: #ED5565;
+$green: #5cb85c;
+$sunflower: #FFCE54;
+$aqua: #2196f3;
+
+.ghost-btn,
+a.ghost-btn {
+    color: #fff;
+    border: solid 2px #fff;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+    &:hover,
+    &:active {
+        background-color: #fff;
+        color: #444;
+    }
+}
+
+.ghost-btn,
+a.ghost-btn,
+.ghost-btn:visited {
+    color: #fff;
+    border: solid 2px #fff;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+}
+
+
+/* Primary Ghost Button */
+
+.ghost-btn-primary,
+a.ghost-btn-primary {
+    @extend .ghost-btn;
+    border: solid 2px $brand-primary;
+    color: $brand-primary;
+    &:hover,
+    &:active {
+        background-color: $brand-primary;
+        color: #fff;
+    }
+}
+
+
+/* Danger Ghost Button */
+
+.ghost-btn-danger,
+a.ghost-btn-danger {
+    @extend .ghost-btn;
+    border: solid 2px $grapefruit;
+    color: $grapefruit;
+    &:hover,
+    &:active {
+        background-color: $grapefruit;
+        color: #fff;
+    }
+}
+
+
+/* Success Ghost Button */
+
+.ghost-btn-success,
+a.ghost-btn-success {
+    @extend .ghost-btn;
+    border: solid 2px $green;
+    color: $green;
+    &:hover,
+    &:active {
+        background-color: $green;
+        color: #fff;
+    }
+}
+
+
+/* Warning Ghost Button */
+
+.ghost-btn-warning,
+a.ghost-btn-warning {
+    @extend .ghost-btn;
+    border: solid 2px $sunflower;
+    color: $sunflower;
+    &:hover,
+    &:active {
+        background-color: $sunflower;
+        color: #fff;
+    }
+}
+
+
+/* Info Ghost Button */
+
+.ghost-btn-info,
+a.ghost-btn-info {
+    @extend .ghost-btn;
+    border: solid 2px $aqua;
+    color: $aqua;
+    &:hover,
+    &:active {
+        background-color: $aqua;
+        color: #fff;
+    }
+}
+
+
+/** Ghost Buttons - End**/
